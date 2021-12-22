@@ -19,7 +19,6 @@ public class Hangman {
     private String nextLetter() {
         return WORDS[RANDOM.nextInt(WORDS.length)];
     }
-
     public void newGame() {
         Errors = 0;
         letters.clear();
